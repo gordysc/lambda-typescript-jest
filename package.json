@@ -1,0 +1,33 @@
+{
+  "name": "lambda-typescript-jest",
+  "version": "1.0.0",
+  "description": "AWS Lambda w/ Typescript & Jest",
+  "main": "handler.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gordysc/lambda-typescript-jest.git"
+  },
+  "author": "Luke Gordon <luke@taktix.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gordysc/lambda-typescript-jest/issues"
+  },
+  "homepage": "https://github.com/gordysc/lambda-typescript-jest#readme",
+  "scripts": {
+    "test": "jest",
+    "start:offline": "node_modules/.bin/serverless offline"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-typescript": "^7.16.5",
+    "@types/aws-lambda": "^8.10.89",
+    "@types/jest": "^27.0.3",
+    "babel-jest": "^27.4.5",
+    "jest": "^27.4.5",
+    "serverless": "^2.70.0",
+    "serverless-offline": "^8.3.1",
+    "serverless-plugin-typescript": "^2.1.0",
+    "typescript": "^4.5.4"
+  }
+}
