@@ -11,8 +11,8 @@ functions:
     handler: handler.hello
     events:
       - http:
-          path: endpoint
-          method: post
+          path: hello
+          method: get
 
 plugins:
   - serverless-offline
